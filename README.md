@@ -1,5 +1,5 @@
 ## BYOKG
-This is the official implementation of the paper [Bring Your Own KG: Self-Supervised Program Synthesis for Zero-Shot KGQA](https://arxiv.org/abs/2311.07850)
+This is the official implementation of the NAACL'24 paper [Bring Your Own KG: Self-Supervised Program Synthesis for Zero-Shot KGQA](https://arxiv.org/abs/2311.07850)
 
 ### Environment setup
 ```shell
