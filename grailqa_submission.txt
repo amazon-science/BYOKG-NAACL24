@@ -1,0 +1,18 @@
+Convert results to submission file using grailqa_submission notebook
+
+Upload results file to CodaLab worksheet (e.g. results_1696126006-sub.json)
+
+Run dummy dev eval:
+cl macro grailqa-resources/evaluate results_1696126006-sub.json -n 'run-predictions'
+
+Change permissions of the generated bundle:
+perm 0xd1bf56 public r
+
+Extract predictions into a new bundle:
+cl make run-predictions/predictions.json -n predictions-baseline_walks_mpt7b
+
+Add description:
+Baseline+walks (MPT-7B) (AWS AI Labs)
+
+Add tag:
+grailqa-submit
