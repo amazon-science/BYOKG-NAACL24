@@ -1,5 +1,5 @@
 ## BYOKG
-This is the official implementation of the NAACL'24 paper [Bring Your Own KG: Self-Supervised Program Synthesis for Zero-Shot KGQA](https://arxiv.org/abs/2311.07850)
+This is the official implementation of the NAACL'24 paper [Bring Your Own KG: Self-Supervised Program Synthesis for Zero-Shot KGQA](https://arxiv.org/abs/2311.07850).
 
 ### Environment setup
 ```shell
@@ -187,11 +187,13 @@ python src/reasoner.py \
 ### Citation
 If you use any component of this project for your work, please cite the following
 ```
-@inproceedings{agarwal2024byokg,
-  title={Bring your own kg: Self-supervised program synthesis for zero-shot kgqa},
-  author={Agarwal, Dhruv and Das, Rajarshi and Khosla, Sopan and Gangadharaiah, Rashmi},
-  booktitle={NAACL},
-  year={2024}
+@inproceedings{
+  agarwal2024bring,
+  title={Bring Your Own {KG}: Self-Supervised Program Synthesis for Zero-Shot {KGQA}},
+  author={Dhruv Agarwal and Rajarshi Das and Sopan Khosla and Rashmi Gangadharaiah},
+  booktitle={2024 Annual Conference of the North American Chapter of the Association for Computational Linguistics},
+  year={2024},
+  url={https://openreview.net/forum?id=Z1IscjaN3g}
 }
 ```
 ## Security
