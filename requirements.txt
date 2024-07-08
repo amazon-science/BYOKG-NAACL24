@@ -38,7 +38,7 @@ fqdn==1.5.1
 frozenlist==1.4.0
 fsspec==2023.6.0
 huggingface-hub==0.16.4
-idna==3.4
+idna==3.7
 importlib-metadata==6.8.0
 importlib-resources==6.0.0
 ipykernel==6.25.0
