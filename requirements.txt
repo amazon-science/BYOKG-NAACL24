@@ -134,5 +134,5 @@ websocket-client==1.6.1
 widgetsnbextension==4.0.8
 xxhash==3.2.0
 yarl==1.9.2
-zipp==3.16.2
+zipp==3.19.1
 gdown==5.1.0
