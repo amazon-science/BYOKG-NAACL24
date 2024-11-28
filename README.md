@@ -11,10 +11,9 @@ sh additional_packages.sh
 
 ### Download datasets and graphs
 ```shell
-cd data && \
-gdown --folder 13w1tfA3YL88y-HwXU3oZlr0oeyIdc_t0 && \
-gdown --folder 1YfGmENowy3H1meysBi4AG7oyY2fHITDz && \
-cd ..
+gdown "https://drive.google.com/uc?id=16U0It2OoYnSSy3dQojlz85_Ky94fRmzp"
+unzip data.zip -d data
+rm data.zip
 ```
 
 ### Virtuoso (SPARQL server) setup
